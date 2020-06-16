@@ -1,0 +1,123 @@
+<head>
+    <link rel="stylesheet" href="register.css">
+</head>
+<div class="total">
+    <span class="left">
+        <div id="welcome">Welcome</div>
+        <div>You are 30 seconds away from earning <br>
+            your own money</div>
+    </span>
+    <span class="right">
+        <div id="emp">
+            <input type="text" placeholder="Employee" id="empin">
+        </div>
+        <div class="SignUp">Employee SignUp</div><br>
+        <div class="inputs">
+            <span>
+                <input type="text" placeholder="FIRST NAME" class="iname">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+                <input type="text" placeholder="YOUR EMAIL">
+            </span><br><br><br>
+            <span>
+                <input type="text" placeholder="Last NAME " class="iname">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+                <input type="text" placeholder="YOUR PHONE">
+            </span><br><br><br>
+            <span>
+                <input type="text" placeholder="PASSWORD" class="iname">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+                <input type="text" placeholder="SECURITY">
+            </span><br><br><br>
+            <span>
+                <input type="text" placeholder="CONFIRM PASSWORD" class="iname">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+                <input type="text" placeholder="ENTER YOUR ANSWER">
+            </span><br><br><br>
+            <button>Register</button>
+        </div>
+
+    </span>
+
+
+</div>
+<style>
+    .total {
+        background-color: rgb(16, 16, 61);
+        height: 500px;
+        width: 1200px;
+        margin-top: 50px;
+        margin-left: 150px;
+
+
+    }
+
+    .left {
+        float: left;
+        width: 250px;
+        color: white;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+
+    .right {
+        float: left;
+        margin-left: 20px;
+        width: 890px;
+        height: 410px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 130px 0px 0px 140px;
+        box-shadow: 7px 8px 5px 10px white;
+    }
+
+    #welcome {
+        font-size: xx-large;
+        margin-left: 40px;
+    }
+
+    #emp {
+        margin-left: 630px;
+        margin-top: 20px;
+        background-color: rgb(67, 67, 177);
+        height: 30px;
+        width: 250px;
+        border-radius: 10px 10px;
+    }
+
+    #empin {
+        
+        color: white;
+        border-radius: 10px 10px;
+        margin-left: 15px;
+        margin-top: 3px;
+        width:100px;
+        color: blue;
+    }
+
+    .SignUp {
+        font-size: x-large;
+        margin-left: 330px;
+    }
+
+    .iname {
+        margin-left: 330px;
+
+    }
+
+    .inputs input {
+        height: 30px;
+        width: 250px;
+    }
+
+    button {
+        background-color: blue;
+        margin-left: 630px;
+        width: 150px;
+        height: 30px;
+        color: white;
+    }
+</style>
